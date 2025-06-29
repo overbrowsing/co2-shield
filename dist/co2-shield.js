@@ -71,7 +71,7 @@ class CO2Shield {
         <div id="result">
             <h2>Results</h2>
             <p>${targetUrl} • ${details} • Scroll down to see the ratings.</p>
-            <img src="${shieldUrl}" alt="CO₂ Shield" style="display:block; height:20px">
+            <img src="${shieldUrl}" alt="CO₂ Shield" style="display:block!important; height:20px">
             <pre>${markdown}</pre>
             <button id="copy">Copy</button>
         </div>
